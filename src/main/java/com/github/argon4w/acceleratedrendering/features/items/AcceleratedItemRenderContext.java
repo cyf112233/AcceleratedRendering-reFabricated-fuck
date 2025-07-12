@@ -10,6 +10,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.ItemStack;
 
+@Getter
 public class AcceleratedItemRenderContext {
 
     private final ItemStack itemStack;
